@@ -1,0 +1,30 @@
+{
+  "name": "@jaydadarkar/nitromvc",
+  "version": "1.0.0",
+  "description": "Simple MVC Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaydadarkar/nitromvc.git"
+  },
+  "keywords": [
+    "framework",
+    "mvc"
+  ],
+  "author": "Jay Dadarkar <dadarkarjay@gmail.com> (https://jaydadarkar.com)",
+  "license": "MIT",
+  "bin": {
+    "nitro-init": "cli.js",
+    "nitro-controller": "./lib/controller.js",
+    "nitro-model": "./lib/model.js",
+    "nitro-auth-role": "./lib/auth_role.js",
+    "nitro-help": "./lib/help.js",
+    "nitro-delete": "./lib/delete.js"
+  },
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}
