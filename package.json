@@ -12,7 +12,14 @@
   },
   "keywords": [
     "framework",
-    "mvc"
+    "mvc",
+    "nitro",
+    "nitromvc",
+    "mvc framework",
+    "api",
+    "rest",
+    "rest api framework",
+    "boilerplate"
   ],
   "author": "Jay Dadarkar <dadarkarjay@gmail.com> (https://jaydadarkar.com)",
   "license": "MIT",
@@ -21,10 +28,12 @@
     "nitro-controller": "./lib/controller.js",
     "nitro-model": "./lib/model.js",
     "nitro-auth-role": "./lib/auth_role.js",
+    "nitro-mvc": "./lib/mvc.js",
     "nitro-help": "./lib/help.js",
     "nitro-delete": "./lib/delete.js"
   },
   "dependencies": {
     "yargs": "^15.3.1"
-  }
+  },
+  "bugs": "https://github.com/jaydadarkar/nitromvc/issues"
 }
