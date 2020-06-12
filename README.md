@@ -29,9 +29,10 @@ $ npm start
 ## Usage
 1. To Make A Controller, Hit: nitro-controller --name={name_of_controller}.
 2. To Make A Model, Hit: nitro-model --name={name_of_model}.
-3. To Make A User Admin, Hit: npm run-script make:admin --name={email_of_registered_user}.
-4. To Make A Role, Hit nitro-auth-role --name={name_of_role}. The use is{RoleName} as a middleware in the routes.
-5. To Delete Current Project, Hit nitro-delete.
+3. To Make Model, View And Controller, Hit: nitro-mvc --name={name_of_module}.
+4. To Make A User Admin, Hit: npm run-script make:admin --name={email_of_registered_user}.
+5. To Make A Role, Hit nitro-auth-role --name={name_of_role}. Then use is{RoleName} as a middleware in the routes like isAdmin.
+6. To Delete Current Project, Hit nitro-delete.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or send an email.
@@ -56,6 +57,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 17. UUID
 18. YARGV
 
+## DOCS
+Full Documentation can be found at http://localhost/docs once your app is running.
+
 ## Author
 [Jay Dadarkar](https://jaydadarkar.com/)
 
@@ -64,6 +68,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Changelog
 ```
+(v1.1.1) => { Minor Fixes }
 (v1.1.0) => { Bootstrap, Storage, Docs, NitroCore, Production Environment, Public Static Assests }
 (v1.0.0) => { MVC, Auth, Roles, Error Pages, Commands }
 ```
